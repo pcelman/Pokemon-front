@@ -1,6 +1,6 @@
 # POKEMON
 
-<img width="1168" alt="Screenshot 2023-06-30 at 17 03 28" src="https://github.com/pcelman/Pokemon-front/assets/100241036/11c9aef7-82e8-4fd3-9a27-52a69325d98e">
+<img width="1641" alt="Screenshot 2023-06-30 at 20 36 14" src="https://github.com/pcelman/Pokemon-old/assets/100241036/5d03ccb8-36b7-48b8-80c1-9632a17b7c8f">
 <!-- [Visit the webpage](https://my-videogame.vercel.app/) -->
 <br>
 
@@ -187,17 +187,17 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 Home page:
 On small screens the menue appears on hover
 <br>
-<img width="1036" alt="Screenshot 2023-06-27 at 16 59 32" src="https://github.com/pcelman/Pokemon-front/assets/100241036/3d9811b8-7054-4d90-9981-062015ec7797">
+<img width="1248" alt="Screenshot 2023-06-30 at 20 39 44" src="https://github.com/pcelman/Pokemon-old/assets/100241036/d2a60343-2d2a-4aae-a493-2567c26caa36">
 
 
 <br>
 Detail of a card <br><br>
-<img width="521" alt="Screenshot 2023-06-27 at 17 00 09" src="https://github.com/pcelman/Pokemon-front/assets/100241036/1cf3ef37-935f-4612-9573-595f0f114b98">
+<img width="551" alt="Screenshot 2023-06-30 at 20 40 17" src="https://github.com/pcelman/Pokemon-old/assets/100241036/b85184be-b221-48dd-9dfd-af1b84a61cbd">
 
 <br>Form for the creation of a custom POKEMON with a preview card<br>
 
 
-<img width="1159" alt="Screenshot 2023-06-30 at 16 54 52" src="https://github.com/pcelman/Pokemon-front/assets/100241036/5d6bee28-4111-4696-9e23-7680f502ddb4">
+<img width="864" alt="Screenshot 2023-06-30 at 20 40 59" src="https://github.com/pcelman/Pokemon-old/assets/100241036/9bab4bb9-2abc-4df3-950a-e5b0098b955b">
 
 <br>Custom pokemon search result:<br>
 
