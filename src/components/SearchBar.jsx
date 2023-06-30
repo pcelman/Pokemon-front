@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { useDispatch } from "react-redux";
 import { getNameCharacters } from "../redux/actions.js";
 import "../styles/searchbar.css";
-import { BsSearch } from "react-icons/Bs";
+import { BiSearchAlt2 } from "react-icons/bi";
 
 export default function SearchBar() {
   const dispatch = useDispatch();
@@ -36,7 +36,7 @@ export default function SearchBar() {
         onKeyDown={handleKeyDown}
       />
       <button type="submit" onClick={handleSubmit} disabled={!name}>
-        <BsSearch size={20} />
+        <BiSearchAlt2 size={20} />
       </button>
     </div>
   );
