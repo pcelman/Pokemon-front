@@ -1,0 +1,28 @@
+.searchbar {
+  display: flex;
+  height: 60px;
+  width: 200px;
+  /* padding-left: 10px; */
+  position: relative;
+}
+
+.searchbar input {
+  border-radius: 5px;
+  border: 2px;
+  padding-left: 15px;
+  background-image: var(--gradient-buttons);
+  color: white;
+  width: 200px;
+}
+
+.searchbar input::placeholder {
+  color: white;
+}
+.searchbar button {
+  position: absolute;
+  background-color: transparent;
+  border: none;
+  color: white;
+  top: 30%;
+  right: 10px;
+}
