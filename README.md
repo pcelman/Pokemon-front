@@ -200,9 +200,9 @@ Detail of a card <br><br>
 <img width="864" alt="Screenshot 2023-06-30 at 20 40 59" src="https://github.com/pcelman/Pokemon-old/assets/100241036/9bab4bb9-2abc-4df3-950a-e5b0098b955b">
 
 <br>Custom pokemon search result:<br>
-
+<img width="1146" alt="Screenshot 2023-06-30 at 20 51 39" src="https://github.com/pcelman/Pokemon-back/assets/100241036/2314c4da-7bf1-4015-87f1-fc3f95311b07">
 <br>Alphabetical order<br>
-
+<img width="1028" alt="Screenshot 2023-06-30 at 20 52 57" src="https://github.com/pcelman/Pokemon-back/assets/100241036/451a7560-f5c7-4618-abe7-9bb755392e35">
 <br>
 404 page: 
 <br>
