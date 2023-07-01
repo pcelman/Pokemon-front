@@ -206,6 +206,6 @@ Detail of a card <br><br>
 <br>
 404 page: 
 <br>
-
+<img width="1114" alt="Screenshot 2023-06-30 at 21 02 22" src="https://github.com/pcelman/Pokemon-front/assets/100241036/c5d66881-e2d6-43d5-8cc0-f7b6b7004b4b">
 <br><br>
 
