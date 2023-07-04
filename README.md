@@ -1,6 +1,6 @@
 # POKEMON
 
-<img width="1641" alt="Screenshot 2023-06-30 at 20 36 14" src="https://github.com/pcelman/Pokemon-old/assets/100241036/5d03ccb8-36b7-48b8-80c1-9632a17b7c8f">
+<img width="1641" alt="Screenshot 2023-06-30 at 20 36 14" src="https://res.cloudinary.com/do3dbemlj/image/upload/v1688507820/Paula/Screenshot_2023-07-04_at_18.56.13_uilhuc.png">
 <!-- [Visit the webpage](https://my-videogame.vercel.app/) -->
 <br>
 
