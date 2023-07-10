@@ -51,9 +51,9 @@ export default function NavBar({ setCurrentPage, setOrder }) {
 
   return (
     <main className="nav">
-<figure className="logo">
+{/* <figure className="logo">
 <img className="about__image" src={logo} alt="" width="40px" />
-</figure>
+</figure> */}
       {/* <div className="navbar__items"> */}
       <input type="checkbox" id="menu" className="check" />
       <label className="nav__close" for="menu">
