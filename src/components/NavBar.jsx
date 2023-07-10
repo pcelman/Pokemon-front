@@ -12,6 +12,9 @@ import {
 } from "../redux/actions.js";
 import SearchBar from "./SearchBar";
 import { RxReload } from "react-icons/rx";
+import { GiHamburgerMenu } from "react-icons/gi";
+import { CgClose } from "react-icons/cg";
+import logo from "../images/pb.png";
 import "../styles/navbar.css"
 
 export default function NavBar({ setCurrentPage, setOrder }) {
@@ -47,40 +50,55 @@ export default function NavBar({ setCurrentPage, setOrder }) {
   }
 
   return (
-    <main className="navbar">
-      <div className="navbar__items">
-        <div className="navbar__button">
+    <main className="nav">
+<figure className="logo">
+<img className="about__image" src={logo} alt="" width="40px" />
+</figure>
+      {/* <div className="navbar__items"> */}
+      <input type="checkbox" id="menu" className="check" />
+      <label className="nav__close" for="menu">
+        <CgClose size={30} className="nav__icon"/>
+      </label>
+      <label className="nav__open" for="menu">
+        <GiHamburgerMenu size={30} className="nav__icon"/>
+      </label>
+      <ul className="nav__menu">
+        {/* <li className="navbar__button"> */}
+        <li className="nav__list">
           <Link to="/create">
             <button className="navbar__create">NEW</button>
           </Link>
-        </div>
+        </li>
+        {/* <li /> */}
         {/* <section className="navbar__select"> */}
 
-
-
+        <li className="nav__list">
           <div className="navbar__searchbar">
             <SearchBar />
           </div>
-
+        </li>
+        <li className="nav__list">
           <select onChange={(e) => handleSort(e)}>
             <option>Order alphabetically</option>
             <option value="asc">Order by: A-Z</option>
             <option value="desc">Order by: Z-A</option>
           </select>
-
-      
+        </li>
+        <li className="nav__list">
           <select onChange={(e) => handleAttackSort(e)}>
             <option value="all">Sort by STRENGTH</option>
             <option value="attackMin">Sort by: Min STR</option>
             <option value="attackMax">Sort by: Max STR</option>
           </select>
-
+        </li>
+        <li className="nav__list">
           <select onChange={(e) => handleFilterCreated(e)}>
             <option value="all">Original/Custom</option>
             <option value="api">Original Pokemons</option>
             <option value="db">Custom Pokemons</option>
           </select>
-
+        </li>
+        <li className="nav__list">
           <select onChange={(e) => handleFilterStatus(e)}>
             <option value="Types">Types</option>
             <option value="normal">Normal Pokemons</option>
@@ -104,16 +122,18 @@ export default function NavBar({ setCurrentPage, setOrder }) {
             <option value="unknown">Unknown Pokemons</option>
             <option value="shadow">Shadow Pokemons</option>
           </select>
+        </li>
         {/* </section> */}
-      </div>
-      <button
-            className="navbar__reload"
-            onClick={(e) => {
-              handleClick(e);
-            }}
-          >
-            <RxReload size={20}/>
-          </button>
+        {/* </div> */}
+        <li
+          className="nav__list"
+          onClick={(e) => {
+            handleClick(e);
+          }}
+        >
+          <RxReload size={20} />
+        </li>
+      </ul>
     </main>
   );
 }
