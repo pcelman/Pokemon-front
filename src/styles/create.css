@@ -18,6 +18,8 @@
 .create__content {
   margin: 80px auto;
   width: 80%;
+  display: grid;
+  place-content: center;
 }
 
 .create__title {
