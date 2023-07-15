@@ -11,7 +11,14 @@ html {
   height: 100vh;
   width: 100%;
   background-size: cover;
-  background-image: linear-gradient(to bottom, #fbcfe4, #e7b5da, #cc9ed4, #a98ad1, #7b79ce);
+  background-image: linear-gradient(
+    to bottom,
+    #fbcfe4,
+    #e7b5da,
+    #cc9ed4,
+    #a98ad1,
+    #7b79ce
+  );
   overflow-y: scroll;
 }
 
@@ -75,11 +82,9 @@ a:active {
 
 @media screen and (max-width: 1291px) {
   .home__cards {
-
+    z-index: -100;
     grid-template-columns: repeat(2, 1fr);
-  
   }
-
 }
 @media screen and (max-width: 986px) {
   .home__cards {
@@ -89,7 +94,8 @@ a:active {
 
 @media screen and (max-width: 599px) {
   .home__cards {
-    margin: 0px 240px;
+    margin: 0px 250px;
+    /* transform: translate(20%, -50%); */
   }
 }
 

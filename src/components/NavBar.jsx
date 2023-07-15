@@ -126,7 +126,7 @@ export default function NavBar({ setCurrentPage, setOrder }) {
         {/* </section> */}
         {/* </div> */}
         <li
-          className="nav__list"
+          className="nav__list navbar__reload "
           onClick={(e) => {
             handleClick(e);
           }}
